@@ -35,7 +35,7 @@ endif
 "---------------------------------------------
 setlocal include=\\<\\(use\\\|require\\)\\>
 setlocal includeexpr=substitute(v:fname,'::','/','g')
-setlocal suffixesadd=.pm6,.pm
+setlocal suffixesadd=.pm6,.pm,.raku,.rakumod,.rakutest,.t6
 setlocal define=[^A-Za-z_]
 
 " The following line changes a global variable but is necessary to make
